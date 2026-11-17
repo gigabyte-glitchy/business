@@ -1,0 +1,285 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gravitea Corp.</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+
+        body {
+            background: #ded3ce;
+            color: #401a22;
+            font-family: 'Poppins', Arial, sans-serif;
+            line-height: 1.6;
+            font-size: 16px;
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            background-color: #423d3e;
+            padding: 30px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: flex-end;
+            gap: 40px;
+        }
+
+        nav a {
+            text-decoration: none;
+            align-items: center;
+            color: white;
+            padding: 10px 20px;
+            transition: 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ffc400;
+        }
+
+        img {
+            border: 4px solid white;
+            border-radius: 10px;
+            width: 600px;
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 40px auto 0;
+            transition: transform 0.3s ease;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+        }
+
+        h1 {
+            position: relative;
+            top: 20px;
+            font-size: 40px;
+            padding: 0;
+            margin: 0;
+            margin-left: -20px;
+            text-align: center;
+            color: white;
+        }
+
+        h2 {
+            color: #401a22;
+            border-bottom: 2px solid #401a22;
+        }
+
+        p {
+            position: relative;
+            top: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .h2-word {
+            margin-bottom: 0;
+            text-align: left;
+        }
+
+        .p1 {
+            color: black;
+            text-align: left;
+        }
+
+        #section1 {
+            color: #401a22;
+            border-radius: 10px;
+            margin: 20px;
+            padding: 20px;
+            margin-bottom: 30px;
+            min-height: 150px;
+            background-color: white;
+            box-shadow: 0 8px 20px rgba(64, 26, 34, 0.2);
+            transition: 0.3s ease;
+        }
+
+        #section1:hover {
+            transform: scale(1.01);
+            background-color: #d496d6;
+        }
+
+        #section2 {
+            color: #401a22;
+            border-radius: 10px;
+            margin: 20px;
+            padding: 20px;
+            margin-bottom: 30px;
+            min-height: 190px;
+            background-color: white;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            transition: 0.3s ease;
+        }
+
+        #section2:hover {
+            transform: scale(1.01);
+            background-color: #d496d6;
+        }
+
+        #section2 ul {
+            color: black;
+        }
+
+        #section3 {
+            color: #401a22;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            min-height: 250px;
+            background-color: white;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            transition: 0.3s ease;
+        }
+
+        #section3:hover {
+            transform: scale(1.01);
+            background-color: #d496d6;
+        }
+
+        #section3 h3 {
+            margin-top: 10px;
+            font-style: italic;
+        }
+
+        #section3 p {
+            margin-top: -20px;
+            margin-bottom: 40px;
+        }
+
+        .visit-btn {
+            display: block;
+            width: fit-content;
+            margin: 20px auto 40px;
+            background-color: #423d3e;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 10px;
+            text-decoration: none;
+            transition: 0.3s ease;
+        }
+
+        .visit-btn:hover {
+            background-color: #ba6678;
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #423d3e;
+            font-size: 14px;
+            padding: 30px;
+            text-align: center;
+            color: white;
+        }
+
+        .footer-p {
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <nav>
+            <a href="#section1">About Us</a>
+            <a href="#section2">Our Products</a>
+            <a href="#section3">Why Choose Us</a>
+        </nav>
+
+        <h1>Gravitea</h1>
+
+        <p>You'll feel out of balance once you drink it</p>
+
+    </header>
+
+    <main>
+
+        <img src="banner.png" alt="Gravitea milk tea shop outside view">
+
+        <section id="section1">
+
+            <h2 class="h2-word">About Us</h2>
+
+            <p class="p1">
+                <strong>Gravitea Naga opened in 2026 in Plaza Rizal, Naga City.</strong>
+                We serve locally sourced tea and milk from Bicol farmers.
+                Our <em>Milktea Shop</em> provides a comfortable place for students
+                and employees to study and work.
+                We aim to offer refreshing drinks at affordable prices.
+            </p>
+
+        </section>
+
+        <section id="section2">
+
+            <h2 class="h2-word">Our Products</h2>
+
+            <ul>
+                <li>Wintermelon</li>
+                <li>Okinawa</li>
+                <li>Matcha Latte</li>
+                <li>Mango Cheesecake</li>
+                <li>Dark Choco</li>
+            </ul>
+
+        </section>
+
+        <section id="section3">
+
+            <h2 class="h2-word">Why Choose Us</h2>
+
+            <h3>Quality</h3>
+
+            <p class="p1">
+                We serve every tea with fresh tea, milk, and boba each week.
+            </p>
+
+            <h3>Affordable Prices</h3>
+
+            <p class="p1">
+                Our drinks start at 35 pesos.
+            </p>
+
+        </section>
+
+        <a href="#footer" class="visit-btn">Visit Us Today</a>
+
+    </main>
+
+    <footer id="footer">
+
+        <p class="footer-p">
+            Address: Plaza Rizal, Naga City |
+            Contact: 09704922676
+        </p>
+
+        <p class="footer-p">
+            © 2026 Gravitea Corp. |
+            Sipping it makes your world out of gravitea!
+        </p>
+
+    </footer>
+
+</body>
+</html>
+```
